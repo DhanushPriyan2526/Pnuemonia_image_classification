@@ -42,7 +42,7 @@ def predict_image(image):
         st.error(f"Error predicting image: {e}")
 
 # Streamlit app
-st.title("Medical Image Classification")
+st.title("Pneumonia Image Classification")
 
 uploaded_file = st.file_uploader("Choose an image...", type="jpg")
 
