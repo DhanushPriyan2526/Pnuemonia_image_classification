@@ -9,7 +9,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 # Load the pre-trained model
-model_path = 'model/cnn_model_enhanced.h5'
+model_path = 'model/cnn_model.h5'
 try:
     model = load_model(model_path)
     logging.info(f"Model loaded successfully from {model_path}")
